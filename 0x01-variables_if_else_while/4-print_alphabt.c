@@ -2,24 +2,24 @@
 /**
  * main - Entry point
  *
- * Return: Aways 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-        char alpha = 'a';
+	char alpha = 'a';
 
-        while (alpha <= 'z')
-        {
-                if (alpha == 'e' || alpha == 'q')
-                {
-                        alpha++;
-                }
-                else
-                {
-                        putchar(alpha);
-                        alpha++;
-                }
-        }
-        putchar('\n');
-        return (0);
+	while (alpha <= 'z')
+	{
+		if (alpha == 'e' || alpha == 'q')
+		{
+			alpha++;
+		}
+		else
+		{ 
+			putchar(alpha);
+			alpha++;
+		}
+	}
+	putchar('\n');
+	return (0);
 }
