@@ -11,7 +11,7 @@ int main(void)
 
 	while (decimal <= 9)
 	{
-		putchar(decimal);
+		putchar(decimal + '0');
 		decimal++;
 	}
 	while (hexa <= 'f')
