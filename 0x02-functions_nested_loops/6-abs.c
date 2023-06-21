@@ -2,10 +2,11 @@
 /**
  * _abs - Computes the absolute value of an integer
  *
- *@i: The number to be computed
+ * @n: The number to be computed
  *
- * Return: Absolute value 
+ * Return: Absolute value of number
  */
+
 int _abs(int n)
 {
 	int abs_v;
