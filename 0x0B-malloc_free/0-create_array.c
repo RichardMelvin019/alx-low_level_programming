@@ -17,13 +17,13 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 	ap = malloc(size * sizeof(char));
-	for (i = 0; i < size; i++)
-	{
-		ap[i] = c;
-	}
 	if (ap == NULL)
 	{
 		return (NULL);
+	}
+	for (i = 0; i < size; i++)
+	{
+		ap[i] = c;
 	}
 	return (ap);
 }
