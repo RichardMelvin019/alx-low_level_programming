@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * 
+ * main - Entry poit
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	printf("%s\n", __FILE__);
 	return (0);
